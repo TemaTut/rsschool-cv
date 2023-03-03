@@ -42,11 +42,11 @@ document.addEventListener('DOMContentLoaded', () => {
   getQuotes();
 })
 ```   
-### My project
+### My projects
 
-[My project](https://github.com/TemaTut/battleship.git)
-[My project](https://rolling-scopes-school.github.io/tematut-JSFEPRESCHOOL2022Q4/plants/)
-[My project](https://rolling-scopes-school.github.io/tematut-JSFEPRESCHOOL2022Q4/momentum/)
+[battleship](https://github.com/TemaTut/battleship.git)
+[plants](https://rolling-scopes-school.github.io/tematut-JSFEPRESCHOOL2022Q4/plants/)
+[momentum](https://rolling-scopes-school.github.io/tematut-JSFEPRESCHOOL2022Q4/momentum/)
 
 ### Education:
 #### Samara State Transport University

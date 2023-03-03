@@ -13,8 +13,11 @@ Mu name is Artem. I recently began to master the profession of front-end develop
 
 * HTML/HTML5
 * CSS/CSS3
+* SCSS
 * Javascript
 * Git
+* Webpack
+* GitHub
 
 ### Soft Skills
 
@@ -24,22 +27,26 @@ Mu name is Artem. I recently began to master the profession of front-end develop
 ### CODE EXAMPLE
 
 ``` javascript
-let temperature = 20;
-let isRaining = true;
-let minutes = 0;
-if (isRaining) {
-  minutes = 0;
-  } else if (temperature >= 10 && temperature < 15) {
-    minutes = 30;
-    } else if (temperature >= 15 && temperature < 25) {
-    minutes = 40;
-    } else if (temperature >= 25 && temperature <= 35) {
-    minutes = 20;
-    };
+function getQuotes() {
+  const quotes = 'https://type.fit/api/quotes';
+  fetch(quotes)
+    .then(res => res.json())
+    .then(data => {
+      const randomQuote = getRandomNum(0, 1642)
+      quote.textContent = `"${data[randomQuote].text}"`
+      author.textContent = data[randomQuote].author
+    });
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  getQuotes();
+})
 ```   
 ### My project
 
 [My project](https://github.com/TemaTut/battleship.git)
+[My project](https://rolling-scopes-school.github.io/tematut-JSFEPRESCHOOL2022Q4/plants/)
+[My project](https://rolling-scopes-school.github.io/tematut-JSFEPRESCHOOL2022Q4/momentum/)
 
 ### Education:
 #### Samara State Transport University
